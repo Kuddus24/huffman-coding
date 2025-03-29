@@ -28,8 +28,6 @@ huffman-coding/
 │   ├── huffman_encoder.c - Source code for the encoder
 │   ├── huffman_decoder.c - Source code for the decoder
 │   └── Makefile
-├── include/
-│   └── huffman.h - Header file (optional, for organization)
 ├── examples/
 │   └── sample.txt - Sample text file for testing
 └── README.md
@@ -58,7 +56,10 @@ gcc -o huffman_decoder src/huffman_decoder.c
 ### Encoding
 ```bash
 ./huffman_encoder <filename>
+#as for example
+./huffman_encoder examples/sample.txt
 ```
+
 or without arguments to be prompted for the filename:
 ```bash
 ./huffman_encoder
@@ -77,6 +78,8 @@ The encoder will:
 ### Decoding
 ```bash
 ./huffman_decoder <filename.huffman>
+#for example
+./huffman_decoder examples/sample.txt.huffman
 ```
 or without arguments to be prompted for the filename:
 ```bash
