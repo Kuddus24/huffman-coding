@@ -1,0 +1,6 @@
+This is a sample text file to test the Huffman coding compression algorithm.
+It contains some repeated characters and patterns to demonstrate the efficiency of the algorithm.
+The more repeated patterns in the text, the better the compression ratio should be.
+Huffman coding works by assigning shorter codes to more frequent characters.
+AAAAAAAA BBBB CCC DD E - This line demonstrates frequency distribution clearly.
+You should see significant compression with this sample text since it has many repeated words and letters.
